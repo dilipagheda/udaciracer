@@ -171,7 +171,11 @@ function handleSelectTrack(target) {
 }
 
 async function handleAccelerate() {
-  await accelerate(store.race_id);
+  try{
+    await accelerate(store.race_id);
+  }catch(error) {
+    console.log(`error occured:${error}`)
+  }
 }
 
 // HTML VIEWS ------------------------------------------------
