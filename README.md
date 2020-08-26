@@ -104,3 +104,10 @@ Accelerate a car
 - Returns nothing
 
 To complete the race logic, find all the TODO tags in index.js and read the instructions.
+
+
+### Future enhancements
+-  use WebSockets to allow for multiplayer functionality.
+- Show a race completion percentage while the race runs.
+- The leaderboard as a table is a little boring. Create a more entertaining way to display the information! You could try animating some little cars.
+- This is a game, it should be testable! Try adding tests to cover the basic functionality.
