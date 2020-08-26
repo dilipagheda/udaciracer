@@ -3,13 +3,11 @@
 /* -------------------  MOBILE  --------------------- */
 
 header {
-  background-image: url('../images/background.jpg');
+  background-image: url("../images/background.jpg");
 }
-
 
 /* -------------------  TABLET  --------------------- */
 @media (min-width: 768px) {
-
 }
 
 /* -------------------  DESKTOP  -------------------- */
